@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * _custom_strlen - returns the length of a string
+ * @str: the string to measure
+ *
+ * Return: the length of the string
+ */
+
+int _custom_strlen(char *str)
+{
+	int length = 0;
+
+	while (*str != '\0')
+	{
+	length++;
+	str++;
+	}
+
+	return (length);
+}
